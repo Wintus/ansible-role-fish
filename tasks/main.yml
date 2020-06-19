@@ -41,6 +41,6 @@
   lineinfile:
     path: "{{ fish_config_dir }}/config.fish"
     line: "{{ item.line }}"
-  with_items:
+  loop:
     - line: '# enable Vim+Emacs mode'
     - line: fish_hybrid_key_bindings
