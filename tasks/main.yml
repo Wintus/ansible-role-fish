@@ -4,7 +4,7 @@
   when: ansible_pkg_mgr == "apt"
   become: yes
   block:
-  - name: add fish 2.* PPA
+  - name: add fish v2 PPA
     apt_repository:
       repo: ppa:fish-shell/release-2
 
