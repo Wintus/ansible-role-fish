@@ -1,7 +1,11 @@
-Role Name
+Fish
 =========
 
-A brief description of the role goes here.
+Install fish shell
+
+See: https://fishshell.com
+
+Also, install fisherman: https://github.com/jorgebucaran/fisher
 
 Requirements
 ------------
@@ -24,8 +28,9 @@ Example Playbook
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: servers
+      become: yes
       roles:
-         - { role: username.rolename, x: 42 }
+         - role: wintus.fish
 
 License
 -------
