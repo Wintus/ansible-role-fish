@@ -16,4 +16,4 @@ alias tmpdir='cd (mktemp -d)'
 alias pbcopy='xsel -bi'
 alias pbpaste='xsel -bo'
 
-alias envs=printenv
+alias envs='printenv'
