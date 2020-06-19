@@ -5,6 +5,8 @@ Install fish shell
 
 See: https://fishshell.com
 
+Also, install fisherman: https://github.com/jorgebucaran/fisher
+
 Requirements
 ------------
 
